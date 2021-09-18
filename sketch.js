@@ -49,9 +49,9 @@ async function getBackgroundImg(){
     }else if(hour>=23 && hour==0){
         bg = "sunset10.png";
     }else if(hour>=0 && hour==03){
-        bg = "sunset7.png";
+        bg = "sunset11.png";
     }else{
-        bg = "sunset8.png";
+        bg = "sunset12.png";
     }
 backgroundImg = loadImage(bg);
 
